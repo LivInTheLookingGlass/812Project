@@ -1,7 +1,8 @@
 import json
+from sys import argv
 
-bucketized = "/home/gappleto/Syncthing/MSU Notes/example.log.bucketized"
-comparison = "/home/gappleto/Syncthing/MSU Notes/example.log.vc_ordered"
+bucketized = argv[-2]
+comparison = argv[-1]
 
 correct = total = 0
 

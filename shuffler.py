@@ -1,6 +1,7 @@
 from random import shuffle
+from sys import argv
 
-filename = "/home/gappleto/Syncthing/MSU Notes/example.log"
+filename = argv[-1]
 with open(filename, 'r') as f:
     lines = f.readlines()
 

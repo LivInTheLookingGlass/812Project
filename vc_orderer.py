@@ -1,6 +1,6 @@
 from collections import defaultdict
 from json import dumps, loads
-from sys import stdout
+from sys import argv
 
 
 def lattice_with_sum(n, s):
@@ -15,7 +15,7 @@ def lattice_with_sum(n, s):
             yield [x, *partial]
 
 
-filepath = "/home/gappleto/Syncthing/MSU Notes/example.log"
+filepath = argv[-1]
 events = []
 NUM_NODES = 4
 with open(filepath, 'r') as f:
@@ -34,7 +34,6 @@ for event in events:
 max_sum = max(sums.keys())
 for key in sorted(sums.keys()):
     print(f"Doing sum {key}/{max_sum}")
-    stdout.flush()
     curr_events = sums[key]
     if len(curr_events) == 1:
         ordered_events.extend(curr_events)

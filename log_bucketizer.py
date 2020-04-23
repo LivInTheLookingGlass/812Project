@@ -1,6 +1,7 @@
 from json import dumps, loads
+from sys import argv
 
-filepath = "/home/gappleto/Syncthing/MSU Notes/example.log"
+filepath = argv[-1]
 events = []
 NUM_NODES = 4
 with open(filepath, 'r') as f:
