@@ -1,3 +1,6 @@
+# This script re-orders the events in a log into probable-concurrent "buckets"
+# To run, call like "python log_bucketizer.py <log name>"
+# It will produce a file called <log name>.bucketized
 from json import dumps, loads
 from sys import argv
 

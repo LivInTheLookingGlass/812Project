@@ -1,8 +1,12 @@
+# This script produces a log file for a workload. This workload is generated based on the parameters in all caps at the top of the file.
+# To run, call like "python script_template.py <log name>"
+# It will produce a file called <log name>
 import json
 from logging import basicConfig, getLogger, DEBUG
 from pickle import dumps, loads
 from random import choice, uniform
 from socket import socket
+from sys import argv
 from time import sleep, monotonic
 from typing import NamedTuple, Optional
 from unittest.mock import patch
@@ -133,15 +137,17 @@ class FakeSocket:
 @patch('socket.socket', FakeSocket)
 def main():
     # This is where you put your workloads
-    basicConfig(filename='example.log', level=DEBUG)
+    basicConfig(filename=argv[-1], level=DEBUG)
     getLogger().info(
-        "Random workload: num sockets: %r, num iterations: %r, base address: %r, chance of send: %r in %r, round delay (s): %r",
+        "Random workload: num sockets: %r, num iterations: %r, base address: %r, chance of send: %r in %r, round delay (s): %r, max clock drift (s): %r, actual clock drifts: %r",
         RAND_WORKLOAD_NUM_SOCKETS,
         RAND_WORKLOAD_ITERATIONS,
         RAND_WORKLOAD_BASE_ADDRESS,
         RAND_WORKLOAD_CHANCE_SEND,
         RAND_WORKLOAD_CHANCE_SEND + RAND_WORKLOAD_CHANCE_NOT_SEND,
-        RAND_WORKLOAD_ROUND_DELAY
+        RAND_WORKLOAD_ROUND_DELAY,
+        RAND_WORKLOAD_MAX_CLOCK_DRIFT,
+        RAND_WORKLOAD_CLOCK_DRIFTS
     )
     import socket
     servers = [socket.socket(type=socket.SOCK_DGRAM) for _ in range(RAND_WORKLOAD_NUM_SOCKETS)]

@@ -1,3 +1,6 @@
+# This script re-orders the events in a log at random
+# To run, call like "python shuffler.py <log name>"
+# It will produce a file called <log name>.shuffled
 from random import shuffle
 from sys import argv
 

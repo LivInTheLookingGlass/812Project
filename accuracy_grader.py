@@ -1,3 +1,5 @@
+# This script assesses the accuracy of a re-ordered log
+# To run, call like "python accuracy_grader.py <bucketized log> <ordered log>"
 import json
 from sys import argv
 

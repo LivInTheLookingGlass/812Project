@@ -1,3 +1,6 @@
+# This script re-orders the events in a log based on the provided vector clock data
+# To run, call like "python vc_orderer.py <log name>"
+# It will produce a file called <log name>.vc_ordered
 from collections import defaultdict
 from json import dumps, loads
 from sys import argv

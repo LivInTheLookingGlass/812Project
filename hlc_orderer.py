@@ -1,3 +1,6 @@
+# This script re-orders the events in a log based on the provided hybrid logical clock data
+# To run, call like "python hlc_orderer.py <log name>"
+# It will produce a file called <log name>.hlc_ordered
 from json import dumps, loads
 from sys import argv
 
