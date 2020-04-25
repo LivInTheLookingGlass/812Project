@@ -20,7 +20,6 @@ def lattice_with_sum(n, s):
 
 filepath = argv[-1]
 events = []
-NUM_NODES = 4
 with open(filepath, 'r') as f:
     for idx, line in enumerate(f.readlines()):
         if idx:
@@ -31,8 +30,11 @@ with open(filepath, 'r') as f:
 
 ordered_events = []
 sums = defaultdict(list)
+NUM_NODES = len(events[0]['vc'])
 for event in events:
     sums[sum(event['vc'])].append(event)
+
+del events
 
 max_sum = max(sums.keys())
 for key in sorted(sums.keys()):
@@ -41,9 +43,10 @@ for key in sorted(sums.keys()):
     if len(curr_events) == 1:
         ordered_events.extend(curr_events)
     else:
-        sort_reference = tuple(lattice_with_sum(NUM_NODES, key))  # this takes a crapton of memory
+        relevant = tuple(event['vc'] for event in curr_events)
+        sort_reference = tuple(x for x in lattice_with_sum(NUM_NODES, key) if x in relevant)
         ordered_events.extend(sorted(curr_events, key=lambda event: sort_reference.index(event['vc'])))
     del sums[key]  # try to reduce memory load somewhat
 
 with open(filepath + '.vc_ordered', 'w') as f:
-    f.write(dumps(events))
+    f.write(dumps(ordered_events))
