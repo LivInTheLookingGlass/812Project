@@ -1,5 +1,5 @@
 # This script produces a log file for a workload. This workload is generated based on the parameters in all caps at the top of the file.
-# To run, call like "python script_template.py <log name>"
+# To run, call like "python script_template.py <base port> <log name>"
 # It will produce a file called <log name>
 import json
 from logging import basicConfig, getLogger, DEBUG
@@ -14,9 +14,9 @@ from unittest.mock import patch
 global NUM_NODES
 NUM_NODES = 0
 
-RAND_WORKLOAD_NUM_SOCKETS = 4
+RAND_WORKLOAD_NUM_SOCKETS = 10
 RAND_WORKLOAD_ITERATIONS = 50
-RAND_WORKLOAD_BASE_ADDRESS = choice((30000, 40000, 50000, 60000))
+RAND_WORKLOAD_BASE_ADDRESS = int(argv[-2])
 RAND_WORKLOAD_CHANCE_SEND = 3
 RAND_WORKLOAD_CHANCE_NOT_SEND = 2
 RAND_WORKLOAD_ROUND_DELAY = 0.5  # seconds

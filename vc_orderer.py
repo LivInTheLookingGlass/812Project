@@ -38,7 +38,6 @@ del events
 
 max_sum = max(sums.keys())
 for key in sorted(sums.keys()):
-    print(f"Doing sum {key}/{max_sum}")
     curr_events = sums[key]
     if len(curr_events) == 1:
         ordered_events.extend(curr_events)
