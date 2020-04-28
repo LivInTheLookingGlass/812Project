@@ -16,4 +16,4 @@ with open(filepath, 'r') as f:
             events.append(loads(line))
 
 with open(filepath + '.hlc_ordered', 'w') as f:
-    f.write(dumps(sorted(events, key=lambda event: event['hlc'])))
+    f.write(dumps(sorted(events, key=lambda event: (event['hlc'], event['to'] if event['recv'] else event['from']))))
