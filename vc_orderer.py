@@ -43,9 +43,10 @@ for key in sorted(sums.keys()):
     if len(curr_events) == 1:
         ordered_events.extend(curr_events)
     else:
-        relevant = tuple(event['vc'] for event in curr_events)
-        sort_reference = tuple(x for x in lattice_with_sum(NUM_NODES, key) if x in relevant)
-        ordered_events.extend(sorted(curr_events, key=lambda event: sort_reference.index(event['vc'])))
+        # relevant = tuple(event['vc'] for event in curr_events)
+        # sort_reference = tuple(x for x in lattice_with_sum(NUM_NODES, key) if x in relevant)
+        # ordered_events.extend(sorted(curr_events, key=lambda event: sort_reference.index(event['vc'])))
+        ordered_events.extend(sorted(curr_events, key=lambda event: event['vc']))
     del sums[key]  # try to reduce memory load somewhat
 
 with open(filepath + '.vc_ordered', 'w') as f:
