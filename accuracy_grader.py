@@ -20,9 +20,15 @@ for idx, bucket_1 in enumerate(buckets):
             for y in bucket_2:
                 if events.index(x) < events.index(y):
                     oracle_correct += 1
-                elif not (all(a >= b for a, b in zip(x['vc'], y['vc'])) and any(a > b for a, b in zip(x['vc'], y['vc']))):  # first test is less expensive, but has false negatives
-                    causal_correct += 1
-                else:
-                    wrong += 1
+                elif 'hlc' in comparison:
+                    if x['hlc'] >= y['hlc']:
+                        causal_correct += 1
+                    else:
+                        wrong += 1
+                elif 'vc' in comparison:
+                    if not (all(a >= b for a, b in zip(x['vc'], y['vc'])) and any(a > b for a, b in zip(x['vc'], y['vc']))):  # first test is less expensive, but has false negatives
+                        causal_correct += 1
+                    else:
+                        wrong += 1
 
 print(f"{oracle_correct:,} / {causal_correct:,} / {wrong:,}")
