@@ -1,0 +1,1100 @@
+[00:00:00.013744] Starting generation for run 1...
+[00:00:00.013841] Starting generation for run 2...
+[00:00:00.013854] Starting generation for run 3...
+[00:00:00.013892] Starting generation for run 4...
+[00:00:00.013947] Starting generation for run 5...
+[00:00:00.017282] Starting generation for run 6...
+[00:00:00.017353] Starting generation for run 7...
+[00:00:00.017368] Starting generation for run 8...
+[00:00:00.017412] Starting generation for run 9...
+[00:00:00.017439] Starting generation for run 10...
+[00:00:00.017455] Starting generation for run 11...
+[00:00:00.017470] Starting generation for run 12...
+[00:00:00.017535] Starting generation for run 13...
+[00:00:00.018649] Starting generation for run 14...
+[00:00:00.018675] Starting generation for run 15...
+[00:00:00.018691] Starting generation for run 16...
+[00:00:00.018705] Starting generation for run 17...
+[00:00:00.018723] Starting generation for run 18...
+[00:00:00.019952] Starting generation for run 19...
+[00:00:00.019993] Starting generation for run 20...
+[00:00:50.587352] Generation for run 0 done!
+[00:00:50.622665] Generation for run 1 done!
+[00:00:50.657540] Generation for run 2 done!
+[00:00:50.657605] Generation for run 3 done!
+[00:00:50.657616] Generation for run 4 done!
+[00:00:50.657625] Generation for run 5 done!
+[00:00:50.657634] Generation for run 6 done!
+[00:00:50.657642] Generation for run 7 done!
+[00:00:50.657650] Generation for run 8 done!
+[00:00:50.657658] Generation for run 9 done!
+[00:00:50.657666] Generation for run 10 done!
+[00:00:50.657674] Generation for run 11 done!
+[00:00:50.657687] Generation for run 12 done!
+[00:00:50.674638] Generation for run 13 done!
+[00:00:50.674694] Generation for run 14 done!
+[00:00:50.674705] Generation for run 15 done!
+[00:01:41.108378] Generation for run 16 done!
+[00:01:41.108457] Generation for run 17 done!
+[00:01:41.108485] Generation for run 18 done!
+[00:01:41.110432] Generation for run 19 done!
+[00:01:41.112136] Grading run 1...
+[00:01:41.154946] 	Command being timed: "python hlc_orderer.py report_logs/raw/10_sock_100_iter_3_2_send_5_5_drift.run01.log.shuffled"
+[00:01:41.155009] 	User time (seconds): 0.03
+[00:01:41.155020] 	System time (seconds): 0.00
+[00:01:41.155029] 	Percent of CPU this job got: 94%
+[00:01:41.155039] 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.03
+[00:01:41.155048] 	Average shared text size (kbytes): 0
+[00:01:41.155055] 	Average unshared data size (kbytes): 0
+[00:01:41.155074] 	Average stack size (kbytes): 0
+[00:01:41.155082] 	Average total size (kbytes): 0
+[00:01:41.155092] 	Maximum resident set size (kbytes): 12668
+[00:01:41.155101] 	Average resident set size (kbytes): 0
+[00:01:41.155111] 	Major (requiring I/O) page faults: 0
+[00:01:41.155124] 	Minor (reclaiming a frame) page faults: 2052
+[00:01:41.155133] 	Voluntary context switches: 1
+[00:01:41.155146] 	Involuntary context switches: 14
+[00:01:41.155157] 	Swaps: 0
+[00:01:41.155168] 	File system inputs: 0
+[00:01:41.155176] 	File system outputs: 264
+[00:01:41.155185] 	Socket messages sent: 0
+[00:01:41.155194] 	Socket messages received: 0
+[00:01:41.155203] 	Signals delivered: 0
+[00:01:41.155210] 	Page size (bytes): 4096
+[00:01:41.155219] 	Exit status: 0
+[00:01:41.155226] 
+[00:02:26.362938] 630,370 / 6,880 / 0
+[00:02:26.362993] 
+[00:02:26.407564] 	Command being timed: "python vc_orderer.py report_logs/raw/10_sock_100_iter_3_2_send_5_5_drift.run01.log.shuffled"
+[00:02:26.407617] 	User time (seconds): 0.03
+[00:02:26.407627] 	System time (seconds): 0.00
+[00:02:26.407635] 	Percent of CPU this job got: 97%
+[00:02:26.407643] 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.04
+[00:02:26.407650] 	Average shared text size (kbytes): 0
+[00:02:26.407657] 	Average unshared data size (kbytes): 0
+[00:02:26.407664] 	Average stack size (kbytes): 0
+[00:02:26.407671] 	Average total size (kbytes): 0
+[00:02:26.407678] 	Maximum resident set size (kbytes): 12768
+[00:02:26.407686] 	Average resident set size (kbytes): 0
+[00:02:26.407693] 	Major (requiring I/O) page faults: 0
+[00:02:26.407700] 	Minor (reclaiming a frame) page faults: 2058
+[00:02:26.407707] 	Voluntary context switches: 1
+[00:02:26.407714] 	Involuntary context switches: 16
+[00:02:26.407721] 	Swaps: 0
+[00:02:26.407728] 	File system inputs: 0
+[00:02:26.407736] 	File system outputs: 264
+[00:02:26.407743] 	Socket messages sent: 0
+[00:02:26.407750] 	Socket messages received: 0
+[00:02:26.407762] 	Signals delivered: 0
+[00:02:26.407769] 	Page size (bytes): 4096
+[00:02:26.407776] 	Exit status: 0
+[00:02:26.407783] 
+[00:03:14.164450] 628,970 / 8,280 / 0
+[00:03:14.164504] 
+[00:03:14.164516] Grading run 2...
+[00:03:14.207029] 	Command being timed: "python hlc_orderer.py report_logs/raw/10_sock_100_iter_3_2_send_5_5_drift.run02.log.shuffled"
+[00:03:14.207111] 	User time (seconds): 0.03
+[00:03:14.207126] 	System time (seconds): 0.00
+[00:03:14.207136] 	Percent of CPU this job got: 97%
+[00:03:14.207145] 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.04
+[00:03:14.207155] 	Average shared text size (kbytes): 0
+[00:03:14.207163] 	Average unshared data size (kbytes): 0
+[00:03:14.207172] 	Average stack size (kbytes): 0
+[00:03:14.207181] 	Average total size (kbytes): 0
+[00:03:14.207189] 	Maximum resident set size (kbytes): 12924
+[00:03:14.207204] 	Average resident set size (kbytes): 0
+[00:03:14.207213] 	Major (requiring I/O) page faults: 0
+[00:03:14.207221] 	Minor (reclaiming a frame) page faults: 2130
+[00:03:14.207231] 	Voluntary context switches: 1
+[00:03:14.207240] 	Involuntary context switches: 15
+[00:03:14.207248] 	Swaps: 0
+[00:03:14.207257] 	File system inputs: 0
+[00:03:14.207268] 	File system outputs: 296
+[00:03:14.207278] 	Socket messages sent: 0
+[00:03:14.207286] 	Socket messages received: 0
+[00:03:14.207294] 	Signals delivered: 0
+[00:03:14.207310] 	Page size (bytes): 4096
+[00:03:14.207317] 	Exit status: 0
+[00:03:14.207325] 
+[00:04:19.649902] 756,678 / 10,509 / 0
+[00:04:19.649957] 
+[00:04:19.696650] 	Command being timed: "python vc_orderer.py report_logs/raw/10_sock_100_iter_3_2_send_5_5_drift.run02.log.shuffled"
+[00:04:19.696717] 	User time (seconds): 0.04
+[00:04:19.696727] 	System time (seconds): 0.00
+[00:04:19.696735] 	Percent of CPU this job got: 97%
+[00:04:19.696743] 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.04
+[00:04:19.696751] 	Average shared text size (kbytes): 0
+[00:04:19.696758] 	Average unshared data size (kbytes): 0
+[00:04:19.696765] 	Average stack size (kbytes): 0
+[00:04:19.696773] 	Average total size (kbytes): 0
+[00:04:19.696780] 	Maximum resident set size (kbytes): 12984
+[00:04:19.696792] 	Average resident set size (kbytes): 0
+[00:04:19.696799] 	Major (requiring I/O) page faults: 0
+[00:04:19.696806] 	Minor (reclaiming a frame) page faults: 2150
+[00:04:19.696814] 	Voluntary context switches: 1
+[00:04:19.696821] 	Involuntary context switches: 17
+[00:04:19.696828] 	Swaps: 0
+[00:04:19.696836] 	File system inputs: 0
+[00:04:19.696843] 	File system outputs: 296
+[00:04:19.696853] 	Socket messages sent: 0
+[00:04:19.696861] 	Socket messages received: 0
+[00:04:19.696868] 	Signals delivered: 0
+[00:04:19.696875] 	Page size (bytes): 4096
+[00:04:19.696882] 	Exit status: 0
+[00:04:19.696890] 
+[00:05:29.235590] 757,311 / 9,876 / 0
+[00:05:29.235644] 
+[00:05:29.235654] Grading run 3...
+[00:05:29.280321] 	Command being timed: "python hlc_orderer.py report_logs/raw/10_sock_100_iter_3_2_send_5_5_drift.run03.log.shuffled"
+[00:05:29.280373] 	User time (seconds): 0.03
+[00:05:29.280381] 	System time (seconds): 0.00
+[00:05:29.280388] 	Percent of CPU this job got: 97%
+[00:05:29.280394] 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.04
+[00:05:29.280400] 	Average shared text size (kbytes): 0
+[00:05:29.280408] 	Average unshared data size (kbytes): 0
+[00:05:29.280415] 	Average stack size (kbytes): 0
+[00:05:29.280423] 	Average total size (kbytes): 0
+[00:05:29.280430] 	Maximum resident set size (kbytes): 13012
+[00:05:29.280436] 	Average resident set size (kbytes): 0
+[00:05:29.280444] 	Major (requiring I/O) page faults: 0
+[00:05:29.280451] 	Minor (reclaiming a frame) page faults: 2126
+[00:05:29.280458] 	Voluntary context switches: 1
+[00:05:29.280466] 	Involuntary context switches: 16
+[00:05:29.280474] 	Swaps: 0
+[00:05:29.280484] 	File system inputs: 0
+[00:05:29.280492] 	File system outputs: 296
+[00:05:29.280501] 	Socket messages sent: 0
+[00:05:29.280508] 	Socket messages received: 0
+[00:05:29.280515] 	Signals delivered: 0
+[00:05:29.280523] 	Page size (bytes): 4096
+[00:05:29.280530] 	Exit status: 0
+[00:05:29.280545] 
+[00:06:31.034593] 745,892 / 11,455 / 0
+[00:06:31.034647] 
+[00:06:31.083228] 	Command being timed: "python vc_orderer.py report_logs/raw/10_sock_100_iter_3_2_send_5_5_drift.run03.log.shuffled"
+[00:06:31.083278] 	User time (seconds): 0.03
+[00:06:31.083287] 	System time (seconds): 0.00
+[00:06:31.083295] 	Percent of CPU this job got: 97%
+[00:06:31.083304] 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.04
+[00:06:31.083312] 	Average shared text size (kbytes): 0
+[00:06:31.083318] 	Average unshared data size (kbytes): 0
+[00:06:31.083327] 	Average stack size (kbytes): 0
+[00:06:31.083335] 	Average total size (kbytes): 0
+[00:06:31.083343] 	Maximum resident set size (kbytes): 12884
+[00:06:31.083351] 	Average resident set size (kbytes): 0
+[00:06:31.083359] 	Major (requiring I/O) page faults: 0
+[00:06:31.083367] 	Minor (reclaiming a frame) page faults: 2141
+[00:06:31.083375] 	Voluntary context switches: 0
+[00:06:31.083383] 	Involuntary context switches: 16
+[00:06:31.083391] 	Swaps: 0
+[00:06:31.083400] 	File system inputs: 0
+[00:06:31.083408] 	File system outputs: 296
+[00:06:31.083416] 	Socket messages sent: 0
+[00:06:31.083424] 	Socket messages received: 0
+[00:06:31.083432] 	Signals delivered: 0
+[00:06:31.083440] 	Page size (bytes): 4096
+[00:06:31.083448] 	Exit status: 0
+[00:06:31.083456] 
+[00:07:35.242539] 746,114 / 11,233 / 0
+[00:07:35.242589] 
+[00:07:35.242599] Grading run 4...
+[00:07:35.290223] 	Command being timed: "python hlc_orderer.py report_logs/raw/10_sock_100_iter_3_2_send_5_5_drift.run04.log.shuffled"
+[00:07:35.290279] 	User time (seconds): 0.03
+[00:07:35.290288] 	System time (seconds): 0.00
+[00:07:35.290296] 	Percent of CPU this job got: 97%
+[00:07:35.290304] 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.04
+[00:07:35.290312] 	Average shared text size (kbytes): 0
+[00:07:35.290319] 	Average unshared data size (kbytes): 0
+[00:07:35.290326] 	Average stack size (kbytes): 0
+[00:07:35.290333] 	Average total size (kbytes): 0
+[00:07:35.290340] 	Maximum resident set size (kbytes): 12648
+[00:07:35.290347] 	Average resident set size (kbytes): 0
+[00:07:35.290354] 	Major (requiring I/O) page faults: 0
+[00:07:35.290361] 	Minor (reclaiming a frame) page faults: 2109
+[00:07:35.290368] 	Voluntary context switches: 0
+[00:07:35.290376] 	Involuntary context switches: 18
+[00:07:35.290383] 	Swaps: 0
+[00:07:35.290390] 	File system inputs: 0
+[00:07:35.290397] 	File system outputs: 288
+[00:07:35.290404] 	Socket messages sent: 0
+[00:07:35.290411] 	Socket messages received: 0
+[00:07:35.290417] 	Signals delivered: 0
+[00:07:35.290425] 	Page size (bytes): 4096
+[00:07:35.290432] 	Exit status: 0
+[00:07:35.290439] 
+[00:08:32.967151] 721,558 / 11,455 / 0
+[00:08:32.967207] 
+[00:08:33.013285] 	Command being timed: "python vc_orderer.py report_logs/raw/10_sock_100_iter_3_2_send_5_5_drift.run04.log.shuffled"
+[00:08:33.013338] 	User time (seconds): 0.03
+[00:08:33.013348] 	System time (seconds): 0.00
+[00:08:33.013356] 	Percent of CPU this job got: 97%
+[00:08:33.013365] 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.04
+[00:08:33.013372] 	Average shared text size (kbytes): 0
+[00:08:33.013380] 	Average unshared data size (kbytes): 0
+[00:08:33.013387] 	Average stack size (kbytes): 0
+[00:08:33.013394] 	Average total size (kbytes): 0
+[00:08:33.013401] 	Maximum resident set size (kbytes): 12968
+[00:08:33.013413] 	Average resident set size (kbytes): 0
+[00:08:33.013420] 	Major (requiring I/O) page faults: 0
+[00:08:33.013427] 	Minor (reclaiming a frame) page faults: 2125
+[00:08:33.013434] 	Voluntary context switches: 1
+[00:08:33.013442] 	Involuntary context switches: 17
+[00:08:33.013449] 	Swaps: 0
+[00:08:33.013456] 	File system inputs: 0
+[00:08:33.013469] 	File system outputs: 288
+[00:08:33.013476] 	Socket messages sent: 0
+[00:08:33.013483] 	Socket messages received: 0
+[00:08:33.013490] 	Signals delivered: 0
+[00:08:33.013497] 	Page size (bytes): 4096
+[00:08:33.013504] 	Exit status: 0
+[00:08:33.013512] 
+[00:09:30.671543] 723,420 / 9,593 / 0
+[00:09:30.671593] 
+[00:09:30.671602] Grading run 5...
+[00:09:30.726093] 	Command being timed: "python hlc_orderer.py report_logs/raw/10_sock_100_iter_3_2_send_5_5_drift.run05.log.shuffled"
+[00:09:30.726152] 	User time (seconds): 0.04
+[00:09:30.726162] 	System time (seconds): 0.00
+[00:09:30.726170] 	Percent of CPU this job got: 96%
+[00:09:30.726178] 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.05
+[00:09:30.726185] 	Average shared text size (kbytes): 0
+[00:09:30.726193] 	Average unshared data size (kbytes): 0
+[00:09:30.726201] 	Average stack size (kbytes): 0
+[00:09:30.726208] 	Average total size (kbytes): 0
+[00:09:30.726215] 	Maximum resident set size (kbytes): 12652
+[00:09:30.726226] 	Average resident set size (kbytes): 0
+[00:09:30.726233] 	Major (requiring I/O) page faults: 0
+[00:09:30.726240] 	Minor (reclaiming a frame) page faults: 2076
+[00:09:30.726247] 	Voluntary context switches: 1
+[00:09:30.726254] 	Involuntary context switches: 20
+[00:09:30.726262] 	Swaps: 0
+[00:09:30.726269] 	File system inputs: 0
+[00:09:30.726275] 	File system outputs: 272
+[00:09:30.726283] 	Socket messages sent: 0
+[00:09:30.726289] 	Socket messages received: 0
+[00:09:30.726296] 	Signals delivered: 0
+[00:09:30.726303] 	Page size (bytes): 4096
+[00:09:30.726310] 	Exit status: 0
+[00:09:30.726316] 
+[00:10:25.913701] 673,683 / 7,120 / 0
+[00:10:25.913757] 
+[00:10:25.960484] 	Command being timed: "python vc_orderer.py report_logs/raw/10_sock_100_iter_3_2_send_5_5_drift.run05.log.shuffled"
+[00:10:25.960541] 	User time (seconds): 0.04
+[00:10:25.960552] 	System time (seconds): 0.00
+[00:10:25.960560] 	Percent of CPU this job got: 97%
+[00:10:25.960568] 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.04
+[00:10:25.960575] 	Average shared text size (kbytes): 0
+[00:10:25.960583] 	Average unshared data size (kbytes): 0
+[00:10:25.960590] 	Average stack size (kbytes): 0
+[00:10:25.960598] 	Average total size (kbytes): 0
+[00:10:25.960605] 	Maximum resident set size (kbytes): 12744
+[00:10:25.960613] 	Average resident set size (kbytes): 0
+[00:10:25.960620] 	Major (requiring I/O) page faults: 0
+[00:10:25.960627] 	Minor (reclaiming a frame) page faults: 2077
+[00:10:25.960635] 	Voluntary context switches: 1
+[00:10:25.960642] 	Involuntary context switches: 19
+[00:10:25.960649] 	Swaps: 0
+[00:10:25.960657] 	File system inputs: 0
+[00:10:25.960664] 	File system outputs: 272
+[00:10:25.960676] 	Socket messages sent: 0
+[00:10:25.960683] 	Socket messages received: 0
+[00:10:25.960691] 	Signals delivered: 0
+[00:10:25.960698] 	Page size (bytes): 4096
+[00:10:25.960706] 	Exit status: 0
+[00:10:25.960713] 
+[00:11:18.605903] 671,155 / 9,648 / 0
+[00:11:18.605951] 
+[00:11:18.605960] Grading run 6...
+[00:11:18.648166] 	Command being timed: "python hlc_orderer.py report_logs/raw/10_sock_100_iter_3_2_send_5_5_drift.run06.log.shuffled"
+[00:11:18.648221] 	User time (seconds): 0.03
+[00:11:18.648229] 	System time (seconds): 0.00
+[00:11:18.648235] 	Percent of CPU this job got: 95%
+[00:11:18.648242] 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.04
+[00:11:18.648250] 	Average shared text size (kbytes): 0
+[00:11:18.648258] 	Average unshared data size (kbytes): 0
+[00:11:18.648266] 	Average stack size (kbytes): 0
+[00:11:18.648273] 	Average total size (kbytes): 0
+[00:11:18.648280] 	Maximum resident set size (kbytes): 12624
+[00:11:18.648288] 	Average resident set size (kbytes): 0
+[00:11:18.648295] 	Major (requiring I/O) page faults: 0
+[00:11:18.648303] 	Minor (reclaiming a frame) page faults: 2055
+[00:11:18.648310] 	Voluntary context switches: 1
+[00:11:18.648317] 	Involuntary context switches: 14
+[00:11:18.648326] 	Swaps: 0
+[00:11:18.648335] 	File system inputs: 0
+[00:11:18.648349] 	File system outputs: 272
+[00:11:18.648356] 	Socket messages sent: 0
+[00:11:18.648365] 	Socket messages received: 0
+[00:11:18.648373] 	Signals delivered: 0
+[00:11:18.648381] 	Page size (bytes): 4096
+[00:11:18.648389] 	Exit status: 0
+[00:11:18.648397] 
+[00:12:09.192750] 647,649 / 7,743 / 0
+[00:12:09.192804] 
+[00:12:09.235977] 	Command being timed: "python vc_orderer.py report_logs/raw/10_sock_100_iter_3_2_send_5_5_drift.run06.log.shuffled"
+[00:12:09.236031] 	User time (seconds): 0.03
+[00:12:09.236038] 	System time (seconds): 0.00
+[00:12:09.236044] 	Percent of CPU this job got: 97%
+[00:12:09.236050] 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.04
+[00:12:09.236056] 	Average shared text size (kbytes): 0
+[00:12:09.236081] 	Average unshared data size (kbytes): 0
+[00:12:09.236091] 	Average stack size (kbytes): 0
+[00:12:09.236099] 	Average total size (kbytes): 0
+[00:12:09.236107] 	Maximum resident set size (kbytes): 12808
+[00:12:09.236115] 	Average resident set size (kbytes): 0
+[00:12:09.236122] 	Major (requiring I/O) page faults: 0
+[00:12:09.236128] 	Minor (reclaiming a frame) page faults: 2073
+[00:12:09.236136] 	Voluntary context switches: 1
+[00:12:09.236143] 	Involuntary context switches: 16
+[00:12:09.236151] 	Swaps: 0
+[00:12:09.236158] 	File system inputs: 0
+[00:12:09.236165] 	File system outputs: 272
+[00:12:09.236172] 	Socket messages sent: 0
+[00:12:09.236179] 	Socket messages received: 0
+[00:12:09.236186] 	Signals delivered: 0
+[00:12:09.236198] 	Page size (bytes): 4096
+[00:12:09.236206] 	Exit status: 0
+[00:12:09.236217] 
+[00:12:58.105815] 646,603 / 8,789 / 0
+[00:12:58.105871] 
+[00:12:58.105880] Grading run 7...
+[00:12:58.149556] 	Command being timed: "python hlc_orderer.py report_logs/raw/10_sock_100_iter_3_2_send_5_5_drift.run07.log.shuffled"
+[00:12:58.149607] 	User time (seconds): 0.03
+[00:12:58.149615] 	System time (seconds): 0.00
+[00:12:58.149622] 	Percent of CPU this job got: 100%
+[00:12:58.149628] 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.04
+[00:12:58.149634] 	Average shared text size (kbytes): 0
+[00:12:58.149639] 	Average unshared data size (kbytes): 0
+[00:12:58.149645] 	Average stack size (kbytes): 0
+[00:12:58.149651] 	Average total size (kbytes): 0
+[00:12:58.149657] 	Maximum resident set size (kbytes): 12896
+[00:12:58.149663] 	Average resident set size (kbytes): 0
+[00:12:58.149668] 	Major (requiring I/O) page faults: 0
+[00:12:58.149676] 	Minor (reclaiming a frame) page faults: 2092
+[00:12:58.149682] 	Voluntary context switches: 1
+[00:12:58.149688] 	Involuntary context switches: 14
+[00:12:58.149694] 	Swaps: 0
+[00:12:58.149700] 	File system inputs: 0
+[00:12:58.149705] 	File system outputs: 280
+[00:12:58.149711] 	Socket messages sent: 0
+[00:12:58.149717] 	Socket messages received: 0
+[00:12:58.149722] 	Signals delivered: 0
+[00:12:58.149728] 	Page size (bytes): 4096
+[00:12:58.149734] 	Exit status: 0
+[00:12:58.149739] 
+[00:13:52.953283] 695,130 / 11,544 / 0
+[00:13:52.953343] 
+[00:13:52.998729] 	Command being timed: "python vc_orderer.py report_logs/raw/10_sock_100_iter_3_2_send_5_5_drift.run07.log.shuffled"
+[00:13:52.998781] 	User time (seconds): 0.03
+[00:13:52.998791] 	System time (seconds): 0.00
+[00:13:52.998799] 	Percent of CPU this job got: 95%
+[00:13:52.998807] 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.04
+[00:13:52.998815] 	Average shared text size (kbytes): 0
+[00:13:52.998822] 	Average unshared data size (kbytes): 0
+[00:13:52.998830] 	Average stack size (kbytes): 0
+[00:13:52.998837] 	Average total size (kbytes): 0
+[00:13:52.998844] 	Maximum resident set size (kbytes): 12700
+[00:13:52.998852] 	Average resident set size (kbytes): 0
+[00:13:52.998859] 	Major (requiring I/O) page faults: 0
+[00:13:52.998866] 	Minor (reclaiming a frame) page faults: 2103
+[00:13:52.998874] 	Voluntary context switches: 1
+[00:13:52.998881] 	Involuntary context switches: 16
+[00:13:52.998893] 	Swaps: 0
+[00:13:52.998900] 	File system inputs: 0
+[00:13:52.998907] 	File system outputs: 280
+[00:13:52.998914] 	Socket messages sent: 0
+[00:13:52.998922] 	Socket messages received: 0
+[00:13:52.998929] 	Signals delivered: 0
+[00:13:52.998936] 	Page size (bytes): 4096
+[00:13:52.998943] 	Exit status: 0
+[00:13:52.998950] 
+[00:14:49.000455] 697,906 / 8,768 / 0
+[00:14:49.000503] 
+[00:14:49.000513] Grading run 8...
+[00:14:49.045736] 	Command being timed: "python hlc_orderer.py report_logs/raw/10_sock_100_iter_3_2_send_5_5_drift.run08.log.shuffled"
+[00:14:49.045788] 	User time (seconds): 0.03
+[00:14:49.045797] 	System time (seconds): 0.00
+[00:14:49.045805] 	Percent of CPU this job got: 100%
+[00:14:49.045813] 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.04
+[00:14:49.045820] 	Average shared text size (kbytes): 0
+[00:14:49.045828] 	Average unshared data size (kbytes): 0
+[00:14:49.045835] 	Average stack size (kbytes): 0
+[00:14:49.045842] 	Average total size (kbytes): 0
+[00:14:49.045849] 	Maximum resident set size (kbytes): 12720
+[00:14:49.045857] 	Average resident set size (kbytes): 0
+[00:14:49.045864] 	Major (requiring I/O) page faults: 0
+[00:14:49.045871] 	Minor (reclaiming a frame) page faults: 2082
+[00:14:49.045879] 	Voluntary context switches: 1
+[00:14:49.045886] 	Involuntary context switches: 16
+[00:14:49.045893] 	Swaps: 0
+[00:14:49.045900] 	File system inputs: 0
+[00:14:49.045912] 	File system outputs: 280
+[00:14:49.045920] 	Socket messages sent: 0
+[00:14:49.045927] 	Socket messages received: 0
+[00:14:49.045934] 	Signals delivered: 0
+[00:14:49.045941] 	Page size (bytes): 4096
+[00:14:49.045948] 	Exit status: 0
+[00:14:49.045955] 
+[00:15:46.384270] 675,102 / 10,281 / 0
+[00:15:46.384324] 
+[00:15:46.439265] 	Command being timed: "python vc_orderer.py report_logs/raw/10_sock_100_iter_3_2_send_5_5_drift.run08.log.shuffled"
+[00:15:46.439322] 	User time (seconds): 0.04
+[00:15:46.439332] 	System time (seconds): 0.00
+[00:15:46.439340] 	Percent of CPU this job got: 98%
+[00:15:46.439348] 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.05
+[00:15:46.439355] 	Average shared text size (kbytes): 0
+[00:15:46.439363] 	Average unshared data size (kbytes): 0
+[00:15:46.439370] 	Average stack size (kbytes): 0
+[00:15:46.439377] 	Average total size (kbytes): 0
+[00:15:46.439384] 	Maximum resident set size (kbytes): 12768
+[00:15:46.439391] 	Average resident set size (kbytes): 0
+[00:15:46.439398] 	Major (requiring I/O) page faults: 0
+[00:15:46.439406] 	Minor (reclaiming a frame) page faults: 2089
+[00:15:46.439413] 	Voluntary context switches: 0
+[00:15:46.439420] 	Involuntary context switches: 20
+[00:15:46.439427] 	Swaps: 0
+[00:15:46.439434] 	File system inputs: 0
+[00:15:46.439441] 	File system outputs: 280
+[00:15:46.439448] 	Socket messages sent: 0
+[00:15:46.439455] 	Socket messages received: 0
+[00:15:46.439463] 	Signals delivered: 0
+[00:15:46.439470] 	Page size (bytes): 4096
+[00:15:46.439477] 	Exit status: 0
+[00:15:46.439484] 
+[00:16:45.148273] 675,999 / 9,384 / 0
+[00:16:45.148326] 
+[00:16:45.148336] Grading run 9...
+[00:16:45.194330] 	Command being timed: "python hlc_orderer.py report_logs/raw/10_sock_100_iter_3_2_send_5_5_drift.run09.log.shuffled"
+[00:16:45.194381] 	User time (seconds): 0.03
+[00:16:45.194390] 	System time (seconds): 0.00
+[00:16:45.194400] 	Percent of CPU this job got: 97%
+[00:16:45.194407] 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.04
+[00:16:45.194416] 	Average shared text size (kbytes): 0
+[00:16:45.194424] 	Average unshared data size (kbytes): 0
+[00:16:45.194431] 	Average stack size (kbytes): 0
+[00:16:45.194438] 	Average total size (kbytes): 0
+[00:16:45.194447] 	Maximum resident set size (kbytes): 12776
+[00:16:45.194454] 	Average resident set size (kbytes): 0
+[00:16:45.194462] 	Major (requiring I/O) page faults: 0
+[00:16:45.194471] 	Minor (reclaiming a frame) page faults: 2082
+[00:16:45.194479] 	Voluntary context switches: 1
+[00:16:45.194494] 	Involuntary context switches: 23
+[00:16:45.194502] 	Swaps: 0
+[00:16:45.194509] 	File system inputs: 0
+[00:16:45.194516] 	File system outputs: 280
+[00:16:45.194523] 	Socket messages sent: 0
+[00:16:45.194535] 	Socket messages received: 0
+[00:16:45.194543] 	Signals delivered: 0
+[00:16:45.194553] 	Page size (bytes): 4096
+[00:16:45.194561] 	Exit status: 0
+[00:16:45.194568] 
+[00:17:43.451899] 675,639 / 12,195 / 0
+[00:17:43.451951] 
+[00:17:43.507395] 	Command being timed: "python vc_orderer.py report_logs/raw/10_sock_100_iter_3_2_send_5_5_drift.run09.log.shuffled"
+[00:17:43.507448] 	User time (seconds): 0.04
+[00:17:43.507460] 	System time (seconds): 0.00
+[00:17:43.507470] 	Percent of CPU this job got: 98%
+[00:17:43.507479] 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.05
+[00:17:43.507488] 	Average shared text size (kbytes): 0
+[00:17:43.507497] 	Average unshared data size (kbytes): 0
+[00:17:43.507505] 	Average stack size (kbytes): 0
+[00:17:43.507514] 	Average total size (kbytes): 0
+[00:17:43.507523] 	Maximum resident set size (kbytes): 12772
+[00:17:43.507532] 	Average resident set size (kbytes): 0
+[00:17:43.507540] 	Major (requiring I/O) page faults: 0
+[00:17:43.507551] 	Minor (reclaiming a frame) page faults: 2094
+[00:17:43.507561] 	Voluntary context switches: 1
+[00:17:43.507570] 	Involuntary context switches: 20
+[00:17:43.507580] 	Swaps: 0
+[00:17:43.507589] 	File system inputs: 0
+[00:17:43.507598] 	File system outputs: 280
+[00:17:43.507608] 	Socket messages sent: 0
+[00:17:43.507617] 	Socket messages received: 0
+[00:17:43.507626] 	Signals delivered: 0
+[00:17:43.507635] 	Page size (bytes): 4096
+[00:17:43.507643] 	Exit status: 0
+[00:17:43.507654] 
+[00:18:39.540596] 678,676 / 9,158 / 0
+[00:18:39.540645] 
+[00:18:39.540655] Grading run 10...
+[00:18:39.586391] 	Command being timed: "python hlc_orderer.py report_logs/raw/10_sock_100_iter_3_2_send_5_5_drift.run10.log.shuffled"
+[00:18:39.586444] 	User time (seconds): 0.03
+[00:18:39.586454] 	System time (seconds): 0.00
+[00:18:39.586463] 	Percent of CPU this job got: 95%
+[00:18:39.586471] 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.04
+[00:18:39.586478] 	Average shared text size (kbytes): 0
+[00:18:39.586486] 	Average unshared data size (kbytes): 0
+[00:18:39.586493] 	Average stack size (kbytes): 0
+[00:18:39.586500] 	Average total size (kbytes): 0
+[00:18:39.586507] 	Maximum resident set size (kbytes): 12664
+[00:18:39.586514] 	Average resident set size (kbytes): 0
+[00:18:39.586521] 	Major (requiring I/O) page faults: 0
+[00:18:39.586528] 	Minor (reclaiming a frame) page faults: 2105
+[00:18:39.586534] 	Voluntary context switches: 1
+[00:18:39.586541] 	Involuntary context switches: 17
+[00:18:39.586548] 	Swaps: 0
+[00:18:39.586556] 	File system inputs: 0
+[00:18:39.586563] 	File system outputs: 288
+[00:18:39.586569] 	Socket messages sent: 0
+[00:18:39.586576] 	Socket messages received: 0
+[00:18:39.586583] 	Signals delivered: 0
+[00:18:39.586590] 	Page size (bytes): 4096
+[00:18:39.586597] 	Exit status: 0
+[00:18:39.586604] 
+[00:19:45.797876] 716,898 / 11,269 / 0
+[00:19:45.797951] 
+[00:19:45.862109] 	Command being timed: "python vc_orderer.py report_logs/raw/10_sock_100_iter_3_2_send_5_5_drift.run10.log.shuffled"
+[00:19:45.862185] 	User time (seconds): 0.05
+[00:19:45.862195] 	System time (seconds): 0.00
+[00:19:45.862204] 	Percent of CPU this job got: 96%
+[00:19:45.862212] 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.06
+[00:19:45.862219] 	Average shared text size (kbytes): 0
+[00:19:45.862227] 	Average unshared data size (kbytes): 0
+[00:19:45.862234] 	Average stack size (kbytes): 0
+[00:19:45.862241] 	Average total size (kbytes): 0
+[00:19:45.862248] 	Maximum resident set size (kbytes): 12864
+[00:19:45.862255] 	Average resident set size (kbytes): 0
+[00:19:45.862263] 	Major (requiring I/O) page faults: 0
+[00:19:45.862270] 	Minor (reclaiming a frame) page faults: 2119
+[00:19:45.862277] 	Voluntary context switches: 1
+[00:19:45.862284] 	Involuntary context switches: 28
+[00:19:45.862291] 	Swaps: 0
+[00:19:45.862298] 	File system inputs: 0
+[00:19:45.862305] 	File system outputs: 288
+[00:19:45.862312] 	Socket messages sent: 0
+[00:19:45.862319] 	Socket messages received: 0
+[00:19:45.862326] 	Signals delivered: 0
+[00:19:45.862333] 	Page size (bytes): 4096
+[00:19:45.862341] 	Exit status: 0
+[00:19:45.862348] 
+[00:20:58.083526] 718,612 / 9,555 / 0
+[00:20:58.083605] 
+[00:20:58.083618] Grading run 11...
+[00:20:58.140413] 	Command being timed: "python hlc_orderer.py report_logs/raw/10_sock_100_iter_3_2_send_5_5_drift.run11.log.shuffled"
+[00:20:58.140467] 	User time (seconds): 0.04
+[00:20:58.140475] 	System time (seconds): 0.00
+[00:20:58.140483] 	Percent of CPU this job got: 98%
+[00:20:58.140493] 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.05
+[00:20:58.140500] 	Average shared text size (kbytes): 0
+[00:20:58.140507] 	Average unshared data size (kbytes): 0
+[00:20:58.140514] 	Average stack size (kbytes): 0
+[00:20:58.140521] 	Average total size (kbytes): 0
+[00:20:58.140529] 	Maximum resident set size (kbytes): 12880
+[00:20:58.140535] 	Average resident set size (kbytes): 0
+[00:20:58.140541] 	Major (requiring I/O) page faults: 0
+[00:20:58.140548] 	Minor (reclaiming a frame) page faults: 2089
+[00:20:58.140555] 	Voluntary context switches: 1
+[00:20:58.140563] 	Involuntary context switches: 25
+[00:20:58.140572] 	Swaps: 0
+[00:20:58.140591] 	File system inputs: 0
+[00:20:58.140598] 	File system outputs: 280
+[00:20:58.140605] 	Socket messages sent: 0
+[00:20:58.140612] 	Socket messages received: 0
+[00:20:58.140621] 	Signals delivered: 0
+[00:20:58.140628] 	Page size (bytes): 4096
+[00:20:58.140638] 	Exit status: 0
+[00:20:58.140646] 
+[00:22:06.526178] 694,466 / 9,829 / 0
+[00:22:06.526259] 
+[00:22:06.577552] 	Command being timed: "python vc_orderer.py report_logs/raw/10_sock_100_iter_3_2_send_5_5_drift.run11.log.shuffled"
+[00:22:06.577613] 	User time (seconds): 0.03
+[00:22:06.577623] 	System time (seconds): 0.00
+[00:22:06.577631] 	Percent of CPU this job got: 95%
+[00:22:06.577640] 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.04
+[00:22:06.577647] 	Average shared text size (kbytes): 0
+[00:22:06.577654] 	Average unshared data size (kbytes): 0
+[00:22:06.577662] 	Average stack size (kbytes): 0
+[00:22:06.577669] 	Average total size (kbytes): 0
+[00:22:06.577676] 	Maximum resident set size (kbytes): 12860
+[00:22:06.577683] 	Average resident set size (kbytes): 0
+[00:22:06.577690] 	Major (requiring I/O) page faults: 0
+[00:22:06.577698] 	Minor (reclaiming a frame) page faults: 2102
+[00:22:06.577705] 	Voluntary context switches: 1
+[00:22:06.577712] 	Involuntary context switches: 18
+[00:22:06.577719] 	Swaps: 0
+[00:22:06.577727] 	File system inputs: 0
+[00:22:06.577734] 	File system outputs: 280
+[00:22:06.577741] 	Socket messages sent: 0
+[00:22:06.577748] 	Socket messages received: 0
+[00:22:06.577755] 	Signals delivered: 0
+[00:22:06.577762] 	Page size (bytes): 4096
+[00:22:06.577770] 	Exit status: 0
+[00:22:06.577777] 
+[00:23:13.224352] 695,034 / 9,261 / 0
+[00:23:13.224406] 
+[00:23:13.224418] Grading run 12...
+[00:23:13.279399] 	Command being timed: "python hlc_orderer.py report_logs/raw/10_sock_100_iter_3_2_send_5_5_drift.run12.log.shuffled"
+[00:23:13.279489] 	User time (seconds): 0.04
+[00:23:13.279499] 	System time (seconds): 0.00
+[00:23:13.279507] 	Percent of CPU this job got: 94%
+[00:23:13.279515] 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.05
+[00:23:13.279523] 	Average shared text size (kbytes): 0
+[00:23:13.279530] 	Average unshared data size (kbytes): 0
+[00:23:13.279537] 	Average stack size (kbytes): 0
+[00:23:13.279544] 	Average total size (kbytes): 0
+[00:23:13.279552] 	Maximum resident set size (kbytes): 12600
+[00:23:13.279559] 	Average resident set size (kbytes): 0
+[00:23:13.279566] 	Major (requiring I/O) page faults: 0
+[00:23:13.279573] 	Minor (reclaiming a frame) page faults: 2082
+[00:23:13.279580] 	Voluntary context switches: 1
+[00:23:13.279587] 	Involuntary context switches: 21
+[00:23:13.279594] 	Swaps: 0
+[00:23:13.279601] 	File system inputs: 0
+[00:23:13.279608] 	File system outputs: 280
+[00:23:13.279615] 	Socket messages sent: 0
+[00:23:13.279622] 	Socket messages received: 0
+[00:23:13.279630] 	Signals delivered: 0
+[00:23:13.279637] 	Page size (bytes): 4096
+[00:23:13.279644] 	Exit status: 0
+[00:23:13.279651] 
+[00:24:16.096857] 683,579 / 8,865 / 0
+[00:24:16.096908] 
+[00:24:16.142461] 	Command being timed: "python vc_orderer.py report_logs/raw/10_sock_100_iter_3_2_send_5_5_drift.run12.log.shuffled"
+[00:24:16.142518] 	User time (seconds): 0.04
+[00:24:16.142531] 	System time (seconds): 0.00
+[00:24:16.142541] 	Percent of CPU this job got: 95%
+[00:24:16.142550] 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.04
+[00:24:16.142558] 	Average shared text size (kbytes): 0
+[00:24:16.142566] 	Average unshared data size (kbytes): 0
+[00:24:16.142575] 	Average stack size (kbytes): 0
+[00:24:16.142583] 	Average total size (kbytes): 0
+[00:24:16.142591] 	Maximum resident set size (kbytes): 12760
+[00:24:16.142599] 	Average resident set size (kbytes): 0
+[00:24:16.142607] 	Major (requiring I/O) page faults: 0
+[00:24:16.142615] 	Minor (reclaiming a frame) page faults: 2097
+[00:24:16.142623] 	Voluntary context switches: 0
+[00:24:16.142631] 	Involuntary context switches: 16
+[00:24:16.142639] 	Swaps: 0
+[00:24:16.142647] 	File system inputs: 0
+[00:24:16.142655] 	File system outputs: 280
+[00:24:16.142663] 	Socket messages sent: 0
+[00:24:16.142671] 	Socket messages received: 0
+[00:24:16.142680] 	Signals delivered: 0
+[00:24:16.142688] 	Page size (bytes): 4096
+[00:24:16.142696] 	Exit status: 0
+[00:24:16.142703] 
+[00:25:14.423841] 683,057 / 9,387 / 0
+[00:25:14.423924] 
+[00:25:14.423942] Grading run 13...
+[00:25:14.483315] 	Command being timed: "python hlc_orderer.py report_logs/raw/10_sock_100_iter_3_2_send_5_5_drift.run13.log.shuffled"
+[00:25:14.483391] 	User time (seconds): 0.04
+[00:25:14.483405] 	System time (seconds): 0.00
+[00:25:14.483415] 	Percent of CPU this job got: 96%
+[00:25:14.483424] 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.05
+[00:25:14.483434] 	Average shared text size (kbytes): 0
+[00:25:14.483443] 	Average unshared data size (kbytes): 0
+[00:25:14.483453] 	Average stack size (kbytes): 0
+[00:25:14.483463] 	Average total size (kbytes): 0
+[00:25:14.483472] 	Maximum resident set size (kbytes): 12660
+[00:25:14.483482] 	Average resident set size (kbytes): 0
+[00:25:14.483491] 	Major (requiring I/O) page faults: 0
+[00:25:14.483501] 	Minor (reclaiming a frame) page faults: 2078
+[00:25:14.483510] 	Voluntary context switches: 1
+[00:25:14.483520] 	Involuntary context switches: 21
+[00:25:14.483529] 	Swaps: 0
+[00:25:14.483539] 	File system inputs: 0
+[00:25:14.483548] 	File system outputs: 280
+[00:25:14.483558] 	Socket messages sent: 0
+[00:25:14.483567] 	Socket messages received: 0
+[00:25:14.483576] 	Signals delivered: 0
+[00:25:14.483586] 	Page size (bytes): 4096
+[00:25:14.483595] 	Exit status: 0
+[00:25:14.483605] 
+[00:26:18.868106] 680,239 / 9,922 / 0
+[00:26:18.868204] 
+[00:26:18.923735] 	Command being timed: "python vc_orderer.py report_logs/raw/10_sock_100_iter_3_2_send_5_5_drift.run13.log.shuffled"
+[00:26:18.923811] 	User time (seconds): 0.03
+[00:26:18.923822] 	System time (seconds): 0.01
+[00:26:18.923831] 	Percent of CPU this job got: 96%
+[00:26:18.923839] 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.05
+[00:26:18.923847] 	Average shared text size (kbytes): 0
+[00:26:18.923854] 	Average unshared data size (kbytes): 0
+[00:26:18.923863] 	Average stack size (kbytes): 0
+[00:26:18.923871] 	Average total size (kbytes): 0
+[00:26:18.923879] 	Maximum resident set size (kbytes): 12844
+[00:26:18.923887] 	Average resident set size (kbytes): 0
+[00:26:18.923896] 	Major (requiring I/O) page faults: 0
+[00:26:18.923905] 	Minor (reclaiming a frame) page faults: 2097
+[00:26:18.923912] 	Voluntary context switches: 0
+[00:26:18.923921] 	Involuntary context switches: 20
+[00:26:18.923929] 	Swaps: 0
+[00:26:18.923937] 	File system inputs: 0
+[00:26:18.923945] 	File system outputs: 280
+[00:26:18.923953] 	Socket messages sent: 0
+[00:26:18.923962] 	Socket messages received: 0
+[00:26:18.923970] 	Signals delivered: 0
+[00:26:18.923978] 	Page size (bytes): 4096
+[00:26:18.923986] 	Exit status: 0
+[00:26:18.923994] 
+[00:27:22.833759] 681,398 / 8,763 / 0
+[00:27:22.833837] 
+[00:27:22.833851] Grading run 14...
+[00:27:22.899660] 	Command being timed: "python hlc_orderer.py report_logs/raw/10_sock_100_iter_3_2_send_5_5_drift.run14.log.shuffled"
+[00:27:22.899749] 	User time (seconds): 0.05
+[00:27:22.899759] 	System time (seconds): 0.00
+[00:27:22.899768] 	Percent of CPU this job got: 96%
+[00:27:22.899776] 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.06
+[00:27:22.899784] 	Average shared text size (kbytes): 0
+[00:27:22.899791] 	Average unshared data size (kbytes): 0
+[00:27:22.899799] 	Average stack size (kbytes): 0
+[00:27:22.899806] 	Average total size (kbytes): 0
+[00:27:22.899813] 	Maximum resident set size (kbytes): 13096
+[00:27:22.899820] 	Average resident set size (kbytes): 0
+[00:27:22.899827] 	Major (requiring I/O) page faults: 0
+[00:27:22.899835] 	Minor (reclaiming a frame) page faults: 2113
+[00:27:22.899842] 	Voluntary context switches: 1
+[00:27:22.899849] 	Involuntary context switches: 25
+[00:27:22.899857] 	Swaps: 0
+[00:27:22.899864] 	File system inputs: 0
+[00:27:22.899871] 	File system outputs: 288
+[00:27:22.899878] 	Socket messages sent: 0
+[00:27:22.899886] 	Socket messages received: 0
+[00:27:22.899893] 	Signals delivered: 0
+[00:27:22.899900] 	Page size (bytes): 4096
+[00:27:22.899908] 	Exit status: 0
+[00:27:22.899915] 
+[00:28:35.559742] 728,018 / 9,775 / 0
+[00:28:35.559832] 
+[00:28:35.629081] 	Command being timed: "python vc_orderer.py report_logs/raw/10_sock_100_iter_3_2_send_5_5_drift.run14.log.shuffled"
+[00:28:35.629160] 	User time (seconds): 0.05
+[00:28:35.629170] 	System time (seconds): 0.00
+[00:28:35.629178] 	Percent of CPU this job got: 96%
+[00:28:35.629185] 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.06
+[00:28:35.629193] 	Average shared text size (kbytes): 0
+[00:28:35.629200] 	Average unshared data size (kbytes): 0
+[00:28:35.629207] 	Average stack size (kbytes): 0
+[00:28:35.629215] 	Average total size (kbytes): 0
+[00:28:35.629222] 	Maximum resident set size (kbytes): 12740
+[00:28:35.629229] 	Average resident set size (kbytes): 0
+[00:28:35.629236] 	Major (requiring I/O) page faults: 0
+[00:28:35.629243] 	Minor (reclaiming a frame) page faults: 2123
+[00:28:35.629250] 	Voluntary context switches: 1
+[00:28:35.629257] 	Involuntary context switches: 26
+[00:28:35.629264] 	Swaps: 0
+[00:28:35.629271] 	File system inputs: 0
+[00:28:35.629278] 	File system outputs: 288
+[00:28:35.629285] 	Socket messages sent: 0
+[00:28:35.629292] 	Socket messages received: 0
+[00:28:35.629299] 	Signals delivered: 0
+[00:28:35.629306] 	Page size (bytes): 4096
+[00:28:35.629313] 	Exit status: 0
+[00:28:35.629321] 
+[00:29:46.228324] 728,195 / 9,598 / 0
+[00:29:46.228404] 
+[00:29:46.228414] Grading run 15...
+[00:29:46.283989] 	Command being timed: "python hlc_orderer.py report_logs/raw/10_sock_100_iter_3_2_send_5_5_drift.run15.log.shuffled"
+[00:29:46.284094] 	User time (seconds): 0.04
+[00:29:46.284107] 	System time (seconds): 0.00
+[00:29:46.284117] 	Percent of CPU this job got: 94%
+[00:29:46.284126] 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.05
+[00:29:46.284136] 	Average shared text size (kbytes): 0
+[00:29:46.284145] 	Average unshared data size (kbytes): 0
+[00:29:46.284153] 	Average stack size (kbytes): 0
+[00:29:46.284163] 	Average total size (kbytes): 0
+[00:29:46.284171] 	Maximum resident set size (kbytes): 12836
+[00:29:46.284180] 	Average resident set size (kbytes): 0
+[00:29:46.284190] 	Major (requiring I/O) page faults: 0
+[00:29:46.284198] 	Minor (reclaiming a frame) page faults: 2108
+[00:29:46.284208] 	Voluntary context switches: 5
+[00:29:46.284217] 	Involuntary context switches: 22
+[00:29:46.284225] 	Swaps: 0
+[00:29:46.284234] 	File system inputs: 312
+[00:29:46.284243] 	File system outputs: 288
+[00:29:46.284252] 	Socket messages sent: 0
+[00:29:46.284260] 	Socket messages received: 0
+[00:29:46.284268] 	Signals delivered: 0
+[00:29:46.284278] 	Page size (bytes): 4096
+[00:29:46.284287] 	Exit status: 0
+[00:29:46.284295] 
+[00:30:56.194637] 725,847 / 11,950 / 0
+[00:30:56.194716] 
+[00:30:56.261509] 	Command being timed: "python vc_orderer.py report_logs/raw/10_sock_100_iter_3_2_send_5_5_drift.run15.log.shuffled"
+[00:30:56.261606] 	User time (seconds): 0.04
+[00:30:56.261616] 	System time (seconds): 0.01
+[00:30:56.261625] 	Percent of CPU this job got: 95%
+[00:30:56.261632] 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.06
+[00:30:56.261640] 	Average shared text size (kbytes): 0
+[00:30:56.261647] 	Average unshared data size (kbytes): 0
+[00:30:56.261655] 	Average stack size (kbytes): 0
+[00:30:56.261662] 	Average total size (kbytes): 0
+[00:30:56.261669] 	Maximum resident set size (kbytes): 12912
+[00:30:56.261679] 	Average resident set size (kbytes): 0
+[00:30:56.261686] 	Major (requiring I/O) page faults: 0
+[00:30:56.261695] 	Minor (reclaiming a frame) page faults: 2129
+[00:30:56.261702] 	Voluntary context switches: 1
+[00:30:56.261710] 	Involuntary context switches: 28
+[00:30:56.261718] 	Swaps: 0
+[00:30:56.261726] 	File system inputs: 0
+[00:30:56.261732] 	File system outputs: 288
+[00:30:56.261739] 	Socket messages sent: 0
+[00:30:56.261746] 	Socket messages received: 0
+[00:30:56.261753] 	Signals delivered: 0
+[00:30:56.261760] 	Page size (bytes): 4096
+[00:30:56.261767] 	Exit status: 0
+[00:30:56.261774] 
+[00:32:01.974613] 726,963 / 10,834 / 0
+[00:32:01.974687] 
+[00:32:01.974699] Grading run 16...
+[00:32:02.025238] 	Command being timed: "python hlc_orderer.py report_logs/raw/10_sock_100_iter_3_2_send_5_5_drift.run16.log.shuffled"
+[00:32:02.025294] 	User time (seconds): 0.04
+[00:32:02.025304] 	System time (seconds): 0.00
+[00:32:02.025312] 	Percent of CPU this job got: 95%
+[00:32:02.025320] 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.04
+[00:32:02.025327] 	Average shared text size (kbytes): 0
+[00:32:02.025335] 	Average unshared data size (kbytes): 0
+[00:32:02.025342] 	Average stack size (kbytes): 0
+[00:32:02.025349] 	Average total size (kbytes): 0
+[00:32:02.025356] 	Maximum resident set size (kbytes): 13020
+[00:32:02.025363] 	Average resident set size (kbytes): 0
+[00:32:02.025371] 	Major (requiring I/O) page faults: 0
+[00:32:02.025378] 	Minor (reclaiming a frame) page faults: 2141
+[00:32:02.025385] 	Voluntary context switches: 4
+[00:32:02.025392] 	Involuntary context switches: 19
+[00:32:02.025399] 	Swaps: 0
+[00:32:02.025406] 	File system inputs: 328
+[00:32:02.025413] 	File system outputs: 296
+[00:32:02.025420] 	Socket messages sent: 0
+[00:32:02.025427] 	Socket messages received: 0
+[00:32:02.025434] 	Signals delivered: 0
+[00:32:02.025441] 	Page size (bytes): 4096
+[00:32:02.025448] 	Exit status: 0
+[00:32:02.025455] 
+[00:33:13.177745] 773,168 / 11,440 / 0
+[00:33:13.177803] 
+[00:33:13.224774] 	Command being timed: "python vc_orderer.py report_logs/raw/10_sock_100_iter_3_2_send_5_5_drift.run16.log.shuffled"
+[00:33:13.224832] 	User time (seconds): 0.03
+[00:33:13.224842] 	System time (seconds): 0.00
+[00:33:13.224850] 	Percent of CPU this job got: 100%
+[00:33:13.224858] 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.04
+[00:33:13.224865] 	Average shared text size (kbytes): 0
+[00:33:13.224873] 	Average unshared data size (kbytes): 0
+[00:33:13.224880] 	Average stack size (kbytes): 0
+[00:33:13.224887] 	Average total size (kbytes): 0
+[00:33:13.224894] 	Maximum resident set size (kbytes): 13144
+[00:33:13.224901] 	Average resident set size (kbytes): 0
+[00:33:13.224908] 	Major (requiring I/O) page faults: 0
+[00:33:13.224916] 	Minor (reclaiming a frame) page faults: 2169
+[00:33:13.224923] 	Voluntary context switches: 1
+[00:33:13.224930] 	Involuntary context switches: 16
+[00:33:13.224938] 	Swaps: 0
+[00:33:13.224945] 	File system inputs: 0
+[00:33:13.224952] 	File system outputs: 296
+[00:33:13.224959] 	Socket messages sent: 0
+[00:33:13.224966] 	Socket messages received: 0
+[00:33:13.224973] 	Signals delivered: 0
+[00:33:13.224980] 	Page size (bytes): 4096
+[00:33:13.224988] 	Exit status: 0
+[00:33:13.224995] 
+[00:34:22.736511] 774,595 / 10,013 / 0
+[00:34:22.736560] 
+[00:34:22.736571] Grading run 17...
+[00:34:22.788539] 	Command being timed: "python hlc_orderer.py report_logs/raw/10_sock_100_iter_3_2_send_5_5_drift.run17.log.shuffled"
+[00:34:22.788605] 	User time (seconds): 0.04
+[00:34:22.788616] 	System time (seconds): 0.00
+[00:34:22.788625] 	Percent of CPU this job got: 95%
+[00:34:22.788633] 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.04
+[00:34:22.788641] 	Average shared text size (kbytes): 0
+[00:34:22.788647] 	Average unshared data size (kbytes): 0
+[00:34:22.788652] 	Average stack size (kbytes): 0
+[00:34:22.788657] 	Average total size (kbytes): 0
+[00:34:22.788663] 	Maximum resident set size (kbytes): 13120
+[00:34:22.788668] 	Average resident set size (kbytes): 0
+[00:34:22.788673] 	Major (requiring I/O) page faults: 0
+[00:34:22.788678] 	Minor (reclaiming a frame) page faults: 2137
+[00:34:22.788683] 	Voluntary context switches: 5
+[00:34:22.788689] 	Involuntary context switches: 29
+[00:34:22.788694] 	Swaps: 0
+[00:34:22.788699] 	File system inputs: 328
+[00:34:22.788705] 	File system outputs: 296
+[00:34:22.788710] 	Socket messages sent: 0
+[00:34:22.788715] 	Socket messages received: 0
+[00:34:22.788720] 	Signals delivered: 0
+[00:34:22.788725] 	Page size (bytes): 4096
+[00:34:22.788730] 	Exit status: 0
+[00:34:22.788735] 
+[00:35:31.793420] 764,681 / 9,907 / 0
+[00:35:31.793502] 
+[00:35:31.841979] 	Command being timed: "python vc_orderer.py report_logs/raw/10_sock_100_iter_3_2_send_5_5_drift.run17.log.shuffled"
+[00:35:31.842039] 	User time (seconds): 0.03
+[00:35:31.842052] 	System time (seconds): 0.00
+[00:35:31.842069] 	Percent of CPU this job got: 95%
+[00:35:31.842079] 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.04
+[00:35:31.842088] 	Average shared text size (kbytes): 0
+[00:35:31.842097] 	Average unshared data size (kbytes): 0
+[00:35:31.842106] 	Average stack size (kbytes): 0
+[00:35:31.842120] 	Average total size (kbytes): 0
+[00:35:31.842129] 	Maximum resident set size (kbytes): 13108
+[00:35:31.842137] 	Average resident set size (kbytes): 0
+[00:35:31.842146] 	Major (requiring I/O) page faults: 0
+[00:35:31.842155] 	Minor (reclaiming a frame) page faults: 2148
+[00:35:31.842163] 	Voluntary context switches: 0
+[00:35:31.842172] 	Involuntary context switches: 18
+[00:35:31.842184] 	Swaps: 0
+[00:35:31.842193] 	File system inputs: 0
+[00:35:31.842202] 	File system outputs: 296
+[00:35:31.842215] 	Socket messages sent: 0
+[00:35:31.842224] 	Socket messages received: 0
+[00:35:31.842234] 	Signals delivered: 0
+[00:35:31.842247] 	Page size (bytes): 4096
+[00:35:31.842256] 	Exit status: 0
+[00:35:31.842265] 
+[00:36:39.371384] 764,364 / 10,224 / 0
+[00:36:39.371437] 
+[00:36:39.371447] Grading run 18...
+[00:36:39.422360] 	Command being timed: "python hlc_orderer.py report_logs/raw/10_sock_100_iter_3_2_send_5_5_drift.run18.log.shuffled"
+[00:36:39.422415] 	User time (seconds): 0.04
+[00:36:39.422425] 	System time (seconds): 0.00
+[00:36:39.422433] 	Percent of CPU this job got: 95%
+[00:36:39.422441] 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.04
+[00:36:39.422449] 	Average shared text size (kbytes): 0
+[00:36:39.422456] 	Average unshared data size (kbytes): 0
+[00:36:39.422464] 	Average stack size (kbytes): 0
+[00:36:39.422471] 	Average total size (kbytes): 0
+[00:36:39.422483] 	Maximum resident set size (kbytes): 12696
+[00:36:39.422490] 	Average resident set size (kbytes): 0
+[00:36:39.422497] 	Major (requiring I/O) page faults: 0
+[00:36:39.422504] 	Minor (reclaiming a frame) page faults: 2059
+[00:36:39.422512] 	Voluntary context switches: 5
+[00:36:39.422519] 	Involuntary context switches: 18
+[00:36:39.422526] 	Swaps: 0
+[00:36:39.422534] 	File system inputs: 288
+[00:36:39.422541] 	File system outputs: 272
+[00:36:39.422548] 	Socket messages sent: 0
+[00:36:39.422555] 	Socket messages received: 0
+[00:36:39.422563] 	Signals delivered: 0
+[00:36:39.422570] 	Page size (bytes): 4096
+[00:36:39.422577] 	Exit status: 0
+[00:36:39.422584] 
+[00:37:30.347733] 646,364 / 11,371 / 0
+[00:37:30.347787] 
+[00:37:30.394121] 	Command being timed: "python vc_orderer.py report_logs/raw/10_sock_100_iter_3_2_send_5_5_drift.run18.log.shuffled"
+[00:37:30.394173] 	User time (seconds): 0.03
+[00:37:30.394184] 	System time (seconds): 0.01
+[00:37:30.394192] 	Percent of CPU this job got: 97%
+[00:37:30.394200] 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.04
+[00:37:30.394207] 	Average shared text size (kbytes): 0
+[00:37:30.394215] 	Average unshared data size (kbytes): 0
+[00:37:30.394222] 	Average stack size (kbytes): 0
+[00:37:30.394229] 	Average total size (kbytes): 0
+[00:37:30.394237] 	Maximum resident set size (kbytes): 12884
+[00:37:30.394244] 	Average resident set size (kbytes): 0
+[00:37:30.394251] 	Major (requiring I/O) page faults: 0
+[00:37:30.394258] 	Minor (reclaiming a frame) page faults: 2075
+[00:37:30.394266] 	Voluntary context switches: 1
+[00:37:30.394278] 	Involuntary context switches: 16
+[00:37:30.394286] 	Swaps: 0
+[00:37:30.394293] 	File system inputs: 0
+[00:37:30.394300] 	File system outputs: 272
+[00:37:30.394307] 	Socket messages sent: 0
+[00:37:30.394314] 	Socket messages received: 0
+[00:37:30.394321] 	Signals delivered: 0
+[00:37:30.394329] 	Page size (bytes): 4096
+[00:37:30.394336] 	Exit status: 0
+[00:37:30.394343] 
+[00:38:23.683577] 648,646 / 9,089 / 0
+[00:38:23.683633] 
+[00:38:23.683646] Grading run 19...
+[00:38:23.729928] 	Command being timed: "python hlc_orderer.py report_logs/raw/10_sock_100_iter_3_2_send_5_5_drift.run19.log.shuffled"
+[00:38:23.729988] 	User time (seconds): 0.03
+[00:38:23.729998] 	System time (seconds): 0.00
+[00:38:23.730006] 	Percent of CPU this job got: 95%
+[00:38:23.730014] 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.04
+[00:38:23.730022] 	Average shared text size (kbytes): 0
+[00:38:23.730029] 	Average unshared data size (kbytes): 0
+[00:38:23.730036] 	Average stack size (kbytes): 0
+[00:38:23.730043] 	Average total size (kbytes): 0
+[00:38:23.730050] 	Maximum resident set size (kbytes): 12656
+[00:38:23.730057] 	Average resident set size (kbytes): 0
+[00:38:23.730072] 	Major (requiring I/O) page faults: 0
+[00:38:23.730080] 	Minor (reclaiming a frame) page faults: 2077
+[00:38:23.730088] 	Voluntary context switches: 5
+[00:38:23.730095] 	Involuntary context switches: 18
+[00:38:23.730102] 	Swaps: 0
+[00:38:23.730110] 	File system inputs: 296
+[00:38:23.730117] 	File system outputs: 280
+[00:38:23.730124] 	Socket messages sent: 0
+[00:38:23.730131] 	Socket messages received: 0
+[00:38:23.730138] 	Signals delivered: 0
+[00:38:23.730145] 	Page size (bytes): 4096
+[00:38:23.730152] 	Exit status: 0
+[00:38:23.730159] 
+[00:39:18.694234] 671,629 / 11,487 / 0
+[00:39:18.694285] 
+[00:39:18.744913] 	Command being timed: "python vc_orderer.py report_logs/raw/10_sock_100_iter_3_2_send_5_5_drift.run19.log.shuffled"
+[00:39:18.744966] 	User time (seconds): 0.04
+[00:39:18.744974] 	System time (seconds): 0.00
+[00:39:18.744981] 	Percent of CPU this job got: 95%
+[00:39:18.744990] 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.04
+[00:39:18.744997] 	Average shared text size (kbytes): 0
+[00:39:18.745003] 	Average unshared data size (kbytes): 0
+[00:39:18.745009] 	Average stack size (kbytes): 0
+[00:39:18.745017] 	Average total size (kbytes): 0
+[00:39:18.745024] 	Maximum resident set size (kbytes): 12880
+[00:39:18.745032] 	Average resident set size (kbytes): 0
+[00:39:18.745040] 	Major (requiring I/O) page faults: 0
+[00:39:18.745048] 	Minor (reclaiming a frame) page faults: 2080
+[00:39:18.745056] 	Voluntary context switches: 0
+[00:39:18.745070] 	Involuntary context switches: 18
+[00:39:18.745077] 	Swaps: 0
+[00:39:18.745092] 	File system inputs: 0
+[00:39:18.745099] 	File system outputs: 280
+[00:39:18.745107] 	Socket messages sent: 0
+[00:39:18.745114] 	Socket messages received: 0
+[00:39:18.745121] 	Signals delivered: 0
+[00:39:18.745128] 	Page size (bytes): 4096
+[00:39:18.745135] 	Exit status: 0
+[00:39:18.745148] 
+[00:40:13.421942] 673,539 / 9,577 / 0
+[00:40:13.422001] 
+[00:40:13.422011] Grading run 20...
+[00:40:13.478403] 	Command being timed: "python hlc_orderer.py report_logs/raw/10_sock_100_iter_3_2_send_5_5_drift.run20.log.shuffled"
+[00:40:13.478460] 	User time (seconds): 0.04
+[00:40:13.478470] 	System time (seconds): 0.00
+[00:40:13.478477] 	Percent of CPU this job got: 96%
+[00:40:13.478485] 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.05
+[00:40:13.478492] 	Average shared text size (kbytes): 0
+[00:40:13.478499] 	Average unshared data size (kbytes): 0
+[00:40:13.478506] 	Average stack size (kbytes): 0
+[00:40:13.478513] 	Average total size (kbytes): 0
+[00:40:13.478520] 	Maximum resident set size (kbytes): 12800
+[00:40:13.478527] 	Average resident set size (kbytes): 0
+[00:40:13.478533] 	Major (requiring I/O) page faults: 0
+[00:40:13.478540] 	Minor (reclaiming a frame) page faults: 2080
+[00:40:13.478547] 	Voluntary context switches: 4
+[00:40:13.478554] 	Involuntary context switches: 20
+[00:40:13.478561] 	Swaps: 0
+[00:40:13.478567] 	File system inputs: 296
+[00:40:13.478574] 	File system outputs: 280
+[00:40:13.478581] 	Socket messages sent: 0
+[00:40:13.478587] 	Socket messages received: 0
+[00:40:13.478594] 	Signals delivered: 0
+[00:40:13.478601] 	Page size (bytes): 4096
+[00:40:13.478607] 	Exit status: 0
+[00:40:13.478614] 
+[00:41:09.614284] 671,738 / 11,310 / 0
+[00:41:09.614335] 
+[00:41:09.670380] 	Command being timed: "python vc_orderer.py report_logs/raw/10_sock_100_iter_3_2_send_5_5_drift.run20.log.shuffled"
+[00:41:09.670434] 	User time (seconds): 0.04
+[00:41:09.670444] 	System time (seconds): 0.01
+[00:41:09.670452] 	Percent of CPU this job got: 98%
+[00:41:09.670459] 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.05
+[00:41:09.670467] 	Average shared text size (kbytes): 0
+[00:41:09.670474] 	Average unshared data size (kbytes): 0
+[00:41:09.670481] 	Average stack size (kbytes): 0
+[00:41:09.670489] 	Average total size (kbytes): 0
+[00:41:09.670496] 	Maximum resident set size (kbytes): 12864
+[00:41:09.670503] 	Average resident set size (kbytes): 0
+[00:41:09.670510] 	Major (requiring I/O) page faults: 0
+[00:41:09.670517] 	Minor (reclaiming a frame) page faults: 2089
+[00:41:09.670524] 	Voluntary context switches: 1
+[00:41:09.670531] 	Involuntary context switches: 26
+[00:41:09.670538] 	Swaps: 0
+[00:41:09.670545] 	File system inputs: 0
+[00:41:09.670552] 	File system outputs: 280
+[00:41:09.670559] 	Socket messages sent: 0
+[00:41:09.670566] 	Socket messages received: 0
+[00:41:09.670573] 	Signals delivered: 0
+[00:41:09.670580] 	Page size (bytes): 4096
+[00:41:09.670587] 	Exit status: 0
+[00:41:09.670594] 
+[00:42:03.701043] 674,229 / 8,819 / 0
+[00:42:03.701099] 
